@@ -90,7 +90,7 @@ int main()
                             cout <<endl<< "\t\t\t \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2 DANG NHAP TAI KHOAN CUA BAN \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\n\n";
                             cout << "\n\t\t\t\t\t DANG NHAP THAT BAI!\a\a\n\n";
                         }
-                    }
+
                             Sleep(2000);
                             while ((TEN != ten || M_K != mk)&&(so_lan_nhap_sai<=5))
                 {
@@ -127,8 +127,18 @@ int main()
                         }
 
                     }
-                    else if (so_lan_nhap_sai>=6) cout<<"THE CUA BAN DA BI KHOA!"<<endl;
-                };}
+                    else if (so_lan_nhap_sai>=6) {cout<<"THE CUA BAN DA BI KHOA!"<<endl;
+                    Sleep(1500);
+                    exit(0);}
+                }}
+                else {
+
+                        cout<<endl<<"\t\t\t \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2 NGAN HANG HAWAII FIVE-O \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2";
+                        cout << "\n\n\t\t\t\t\t    Loading...\n";
+                        Sleep(1000);
+                        cout << endl <<"\n\t\t\t            DANG KI KHONG THANH CONG!\a\a\n\n";
+                        exit(0);}
+                }
     if (choice1==2)
                 { cout<<endl<<"\t\t\t \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2 NGAN HANG HAWAII FIVE-O \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2";
                         cout << "\n\n\t\t\t\t   DANG NHAP TAI KHOAN CUA BAN\n";
